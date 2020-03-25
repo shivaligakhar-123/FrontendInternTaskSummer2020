@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "open sans", helvetica, arial, sans;
+ }
+ /*changes in logo*/
+.logo{
+    width: 156px;
+    margin: 20px
+}
+.log-form {
+  width: 100%;
+  min-width: 320px;
+  max-width: 475px;
+  background: #fff;
+  position: absolute;
+  top: 57%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+h2 {
+  text-align: center; 
+}
+.log-form {
+  padding: 2em;
+  -webkit-box-shadow: 4px -1px 53px -7px rgba(138, 138, 138, 0.30);
+  -moz-box-shadow: 4px -1px 53px -7px rgba(138, 138, 138, 0.30);
+  box-shadow: 4px -1px 53px -7px rgba(138, 138, 138, 0.30);
+}
+
+form {
+  display: block;
+  text-align: center;
+  width: 100%;
+}
+/* ========================WRITE YOUR CSS FROM HERE======================== */
+/*body {
+  background-color: #9e9e9e1a;
+}*/
+.log-form{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: black;
+  padding-top: 20px;
+}
+form{
+  padding:10px;
+}
+/*styles my heading*/
+#header{
+  color:white;
+  font-family: timesnewroman;
+  font-weight: bold;
+}
+.body{
+  background-color: gainsboro;
+}
+#styling_margin{
+ margin-bottom: 5px;
+}
+#inputage{
+  background-color: white;
+  margin-top: 5px;
+  border-radius: .25rem;
+  padding: 5px;
+  border: 1px solid #ced4da;
+  margin-bottom: 10px;
+
+}
+#age{
+  text-align: left;
+  color: lightslategray;
+  font-family: inherit;
+  padding-left: 7px;
+}
+#age_eighteen{
+  margin-left: -166px;
+}
+
+#above{
+ color:lightslategray;
+ font-size:15px;
+}
+#below{
+ color:lightslategray;
+ font-size:15px;
+}
